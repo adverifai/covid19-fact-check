@@ -1,5 +1,6 @@
 # Alternative Olympics Medal Table
 
+
 Based on Russel's awesome [svelte-hmr-sapper repo](https://github.com/russellgoldenberg/svelte-hmr-sapper)
 
 ## Development
