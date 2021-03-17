@@ -257,6 +257,7 @@ const allTags = {
     "Religion": [ "muslim", "muslims", "christians", "religion", "pray for", "islam", "islamic", "ritual", "mecca", "quran", "saint", "pilgrimage", "prayer group", ],
     "Travel": [ "borders", "enter or leave", "airport", "airports", "flights", "flight", "tourist", "tourists", "tourism", ],
     "Videos": ["video", ],
+	"Trump": ["trump","fauci"],
   }
 }
 
