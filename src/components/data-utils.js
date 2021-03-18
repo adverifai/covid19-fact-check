@@ -67,7 +67,7 @@ export const sourceColors = {
 
 export const sources = Object.keys(sourceKeywords)
 
-export const categories = ["Authorities", "Causes", "Conspiracy theory", "Cures", "Spread", "Symptoms", "Other"]
+export const categories = ["Authorities", "Causes", "Conspiracy theory", "False Cures", "Spread", "Symptoms", "Other"]
 // const colors = ["#58B19F", "#778beb", "#e77f67", "#FDA7DF", "#cf6a87", "#A3CB38", "#786fa6", "#4b7bec", "#778ca3", "#0fb9b1"]
 // const colors = ["#1AC29A", "#778beb", "#E58F29", "#FDA7DF", "#cf6a87", "#AED027", "#786fa6", "#778ca3"]
 // const colors = ["#E58F29", "#E1538F", "#358DDE", "#6F57B0", "#91BF0D", "#20C29B", "#CD424A", "#778ca3"]
@@ -223,41 +223,36 @@ export const organizationLogos = {
 
 const allTags = {
   Medical: {
-    "Medical equipment": [ "respirator", "respirators", "ventilator", "ventilators", "face mask", "masks", ],
+	"Ventilators": ["respirator", "respirators", "ventilator", "ventilators",],
+    "Masks": [ "face mask", "masks", ],
     "Medicine": [ "medication", "medicines", "ibuprofen", "tylenol", "nsaid", "nsaids", ],
-    "Hospitals": [ "hospital", "doctor", "doctors", "nurse", "nurses", ],
-    "Insurance": [],
-    "Vaccines": [ "vaccine", ],
+    "Vaccine Risks": [ "vaccine", "autism","brain disorder","infertility", "fertility","chronic illness"],
   },
   Governments: {
-    "Crime": [ "steal", "murder", "murdered", "rob", "robbed", "robbery", "killing", "cannibalism", "cocaine", "scam", "looting", ],
-    "Aid": [ "donation", "donations", "donated", "donate", "donating", "giving away", "give you free", "for free", "free internet", ],
+    "Violence": [ "steal", "murder", "murdered", "rob", "robbed", "robbery", "killing", "cannibalism", "cocaine", "scam", "looting", ],
     "Laws": [ "law", "arrested", ],
-    "Governments": ["government", "goverment", "shortage", "governor", "senator", "cdc", "election", "elections", "military", "suspended", "minister", "ministry", "citizen", "president", "department of health", "police", "officials", ],
-    "Lockdown": [ "lock down", "locked down", "stay inside", "suspend operations", "confinement", "quarantine", "quarantined", "gatherings are banned", "must remain in their homes", "gatherings", "curfew",  ],
+    "Governments": ["plandemic","government", "goverment", "shortage", "governor", "senator", "cdc", "election", "elections", "military", "suspended", "minister", "ministry", "citizen", "president", "department of health", "police", "officials", ],
+    "Anti Lockdown": [ "lock down", "locked down", "stay inside", "suspend operations", "confinement", "quarantine", "quarantined", "gatherings are banned", "must remain in their homes", "gatherings", "curfew",  ],
+	"5G Networks": [ "5g", "networks",],
   },
   C: {
     "Prevention": [ "gloves", "prevent", "gargling", "disinfectant", "disinfectants", "protect", "will not kill", "dies at a temperature", "ward off", "prevents", "summer", "degrees", "combatting", "avoid", "social distancing", "santizer", "sanitization", "disinfect", "kill corona", "gargle", "gargling", "preventing", "can kill", "eliminates corona", "contaminated", "weed kills", "on any surface", "kills the virus", "immunity", "can be slowed", "preventative", "preventive", "kills the 2019", "leave your shoes outside", "fight against corona", "kill all the virus", "desinfectants", "sanitizer", "disinfection", "warm climate", "disinfected", "warm places", "kill the virus", "kills the new corona", "contain corona", "contain the corona", "sterilize", "kills corona", "helps against corona", "against the virus", "helps fight against corona", "stop the new corona", "fumigated", "kill the corona", ],
-    "Cures": [ "cure", "cured", "remedy", "treat", "treatment", "chloroquine", "onion", "drug", "heal", "healed", "garlic", "treating", "antidote", ],
+    "False Cures": ["hydroxychloroquine", "bleach", "cure", "cured", "remedy", "treat", "treatment", "chloroquine", "onion", "drug", "heal", "healed", "garlic", "treating", "antidote", ],
     "Symptoms": ["runny nose", "cough", ],
     "Detection": [ "detect", "test", "tests", "testing", "antibodies", "diagnose", "diagnosis", "to check if you have corona", "tell you if you have", "check for corona", "holding your breath", "hold your breath", ],
     "Risk factors": ["airborne", "in air", "increases risk", "increases coronavirus risk", "transmitted", "increases your chances of getting", "exposes people to", "prone to get", ],
   },
   D: {
-    "Origins": [ "was created", "invented by", "started because", "invented the corona", "came from", "was produced by", "created the virus", "it was lab created", "lab-made corona", "responsible for the pandemic", "caused the corona", "biological warfare", "origin", "was engineered by scientists", "patented the virus", "virus is patented", "is man made", "reason for corona", "covid 19 was invented", ],
-    "Conspiracies": ["chinese secret program", "weapon", "permission to kill", "spies", "cover up", "conspiracy", "bioweapon", "political war", "secret invasion", "cov is man made", "train marked with covid", ],
-    "Predictions": [ "predicted", "predicts", "foresaw", "caused by", "originated in", "forseen", ],
-    "Other diseases": ["the flu", "common cold", "cholera", "hiv", "rabies", "common flu", "a cold", "the cold", "the damn flu", "seasonal flu", "h1n1", ],
+    "Origins": [ "lab", "was created", "invented by", "started because", "invented the corona", "came from", "was produced by", "created the virus", "it was lab created", "lab-made corona", "responsible for the pandemic", "caused the corona", "biological warfare", "origin", "was engineered by scientists", "patented the virus", "virus is patented", "is man made", "reason for corona", "covid 19 was invented", ],
+    "Conspiracies": ["globalists","new world order","chinese secret program", "weapon", "permission to kill", "spies", "aliens", "cover up", "conspiracy", "bioweapon", "political war", "secret invasion", "cov is man made", "train marked with covid", ],
+    "Bill Gates": ["bill gates","micro-chip","micro chip"],
+    "Ties to Other diseases": ["the flu", "common cold", "cholera", "hiv", "rabies", "common flu", "a cold", "the cold", "the damn flu", "seasonal flu", "h1n1", ],
     "Spread": [ "tested positive", "positive", "transmit", "transmitted", "appears in", "was infected",  "new case", "confirmed cases", "is a person with", "a case", "spreading", "confirmed case", "have died", "death toll", "is in", "are infected", "cases in", "cases were reported", "are cases in", "first cases", "first case", "first corona", "infected", "fatality rate", "has reached", "died in", "case infects", "numbers", "first", "cases", "case of cov", "corpse", "corpses", "lying in street", "lying on the ground", "lying on the streets", "coffins", ],
-    "Individuals": ["in intensive care", "was diagnosed", "has been diagnosed", "employee with covid", "has the corona", "has corona", "has the new corona", "has covid", ],
   },
   Other: {
-    "Animals": [ "dog", "dogs", "bat", "bats", "cat", "cats", "chicken", "chickens", "deer", "deers", "lions", "crocodiles", "coyotes", "pig", "pigs", "crab", "orangutan", "whales", "pets", "sheep", "pangolin", "hornets", "fish", "dolphins", ],
-    "Food": [ "supermarket", "supermarkets", "grocery", "beer", "meat", "vegetable", "fruit", "market", "markets", "alcohol", "alcoholic", "foods", "ice cream", "cabbage", "herbs", ],
-    "Religion": [ "muslim", "muslims", "christians", "religion", "pray for", "islam", "islamic", "ritual", "mecca", "quran", "saint", "pilgrimage", "prayer group", ],
-    "Travel": [ "borders", "enter or leave", "airport", "airports", "flights", "flight", "tourist", "tourists", "tourism", ],
-    "Videos": ["video", ],
-	"Trump": ["trump","fauci"],
+    "Religion and Race": ["zion", "muslim", "muslims", "christians", "religion", "pray for", "islam", "islamic", "ritual", "mecca", "quran", "saint", "pilgrimage", "prayer group", ],
+    "Big Pharma": ["big pharma", "pharmaceuticals"],
+	"Trump": ["trump"],
   }
 }
 
