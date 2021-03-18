@@ -486,4 +486,7 @@
       display: none;
     }
   }
+  textPath {
+	font-size:1.7em;
+	}	
 </style>
