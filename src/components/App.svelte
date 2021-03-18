@@ -24,7 +24,13 @@
 	let isLoading = true
 	let embed = null
 	const allSections = [
+		//"intro",
+		//"filters",
 		"clusters",
+		//"map",
+		//"timeline",
+		//"list",
+		//"footer",
 	]
 	// let sections = ["intro"]
 	let sections = []
@@ -102,7 +108,7 @@
 
 <!-- <Header /> -->
 
-<main>
+<main style="margin-right:10em;background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjdGe9Uyb31Kp8Wui44jTwwQU_GQ4aPA07BFeQwE_6Lw_r_C3gGQnsLDIucCPX_DI5LHU&usqp=CAU);background-repeat: no-repeat;background-size: cover;">
 	{#if sections.includes("intro")}
 		<Intro {data} {isLoading} />
 	{/if}
