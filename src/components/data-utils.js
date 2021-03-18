@@ -246,7 +246,7 @@ const allTags = {
     "Origins": [ "lab", "was created", "invented by", "started because", "invented the corona", "came from", "was produced by", "created the virus", "it was lab created", "lab-made corona", "responsible for the pandemic", "caused the corona", "biological warfare", "origin", "was engineered by scientists", "patented the virus", "virus is patented", "is man made", "reason for corona", "covid 19 was invented", ],
     "Conspiracies": ["globalists","new world order","chinese secret program", "weapon", "permission to kill", "spies", "aliens", "cover up", "conspiracy", "bioweapon", "political war", "secret invasion", "cov is man made", "train marked with covid", ],
     "Bill Gates": ["bill gates","micro-chip","micro chip"],
-    "Ties to Other diseases": ["the flu", "common cold", "cholera", "hiv", "rabies", "common flu", "a cold", "the cold", "the damn flu", "seasonal flu", "h1n1", ],
+    "Other diseases": ["the flu", "common cold", "cholera", "hiv", "rabies", "common flu", "a cold", "the cold", "the damn flu", "seasonal flu", "h1n1", ],
     "Spread": [ "tested positive", "positive", "transmit", "transmitted", "appears in", "was infected",  "new case", "confirmed cases", "is a person with", "a case", "spreading", "confirmed case", "have died", "death toll", "is in", "are infected", "cases in", "cases were reported", "are cases in", "first cases", "first case", "first corona", "infected", "fatality rate", "has reached", "died in", "case infects", "numbers", "first", "cases", "case of cov", "corpse", "corpses", "lying in street", "lying on the ground", "lying on the streets", "coffins", ],
   },
   Other: {
