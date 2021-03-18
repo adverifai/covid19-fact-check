@@ -108,7 +108,7 @@
 
 <!-- <Header /> -->
 
-<main style="margin-right:10em;background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjdGe9Uyb31Kp8Wui44jTwwQU_GQ4aPA07BFeQwE_6Lw_r_C3gGQnsLDIucCPX_DI5LHU&usqp=CAU);background-repeat: no-repeat;background-size: cover;">
+<main style="margin-right:10em;background-image: url(https://i.ibb.co/dkwtN76/covid-page.gif);background-repeat: no-repeat;background-size: cover;">
 	{#if sections.includes("intro")}
 		<Intro {data} {isLoading} />
 	{/if}
