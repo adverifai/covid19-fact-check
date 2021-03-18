@@ -214,6 +214,7 @@
 		font-family: "Poynter Gothic";
 		src: url('assets/PoynterGothicText-Bold.woff') format('woff');
 		font-weight: 700;
+		font-size:1.7em;
 	}
 
 	main {
